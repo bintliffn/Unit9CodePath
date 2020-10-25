@@ -55,13 +55,13 @@ The Red site had a flaw that allowed users to see staff members that were not su
 
 <img src="IDOR.gif">
 
-Vulnerability #2: __________________
+Vulnerability #2: CSRF
 
 Description:
+The red site allowed you to make changes to users even if you had an invalid csrf token.
 
-<img src="red-vuln2.gif">
+<img src="csrf1.gif">
 
 
 ## Notes
-
-Describe any challenges encountered while doing the work
+It was definitely time consuming having to test vulnerabilities on 3 different sites while not knowing which site would work. Luckinly since it was 2 vulnerabilities per site I was able to figure out which sites still had vulnerabilities after the first few vulnerabilities had been found
